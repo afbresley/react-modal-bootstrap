@@ -1,8 +1,9 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 
 class ModalFooter extends React.Component {
   static propTypes = {
-    children: React.PropTypes.node
+    children: PropTypes.node
   };
 
   render() {
