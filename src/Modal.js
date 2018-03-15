@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import classnames from 'classnames';
-import Radium from 'radium';
+
 import assign from 'lodash.assign';
 import PropTypes from 'prop-types';
 
@@ -13,7 +13,7 @@ const findParentNode = (parentClass, child) => {
   return parent;
 };
 
-@Radium
+
 class Modal extends React.Component {
   static propTypes = {
     className: PropTypes.string,
